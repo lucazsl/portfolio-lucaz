@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Lucas Silva Loiola — estudante e desenvolvedor. Conheça meus projetos e habilidades." />
+  <link rel="icon" href="imagens/Lucaz.png" type="image/x-icon" />
+  <title>Lucas Silva Loiola — Portfólio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NavBar -->
+
+  <header class="cabecalho" id="inicio">
+    <nav class="nav container">
+      <a href="#inicio" class="nav__logo">&lt;<span>Lucas Silva Loiola</span>/&gt;</a>
+
+      <ul class="nav__menu" id="menu">
+        <li><a href="#inicio" class="nav__link ativo">Início</a></li>
+        <li><a href="#sobre" class="nav__link">Sobre</a></li>
+        <li><a href="#habilidades" class="nav__link">Habilidades</a></li>
+        <li><a href="#projetos" class="nav__link">Projetos</a></li>
+        <li><a href="#hobbies" class="nav__link">Hobbies</a></li>
+        <li><a href="#contato" class="nav__link">Contato</a></li>
+      </ul>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero Section / Início -->
+
+  <section class="hero container">
+    <div class="hero__conteudo">
+      <p class="hero__ola">Olá, eu sou 👋</p>
+      <h1 class="hero__titulo">lucaz</h1>
+      <h2 class="hero__subtitulo" id="digitando">Desenvolvedor Front-end</h2>
+      <p class="hero__texto">
+        Estudante de Análise e desenvolvimento de sistemas apaixonado por tecnologias inovadoras
+        digitais estilosas e funcionais com HTML, CSS e JavaScript.
+      </p>
+      <div class="hero__botoes">
+        <a href="#projetos" class="btn btn--primario">Ver projetos</a>
+        <a href="#contato" class="btn btn--secundario">Fale comigo</a>
+      </div>
+      <div class="hero__redes">
+        <a href="https://github.com/lucazsl" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/lucas-loiola1999/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+    <div class="hero__imagem">
+      <div class="hero__avatar">
+        <img src="imagens/lucaz_profissional.jpeg" alt="Foto profissional" />
+        <img src="imagens/itadori_icon.jpg" alt="Foto estilo pessoal" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+
+  <section class="secao" id="sobre">
+    <div class="container">
+      <h2 class="secao__titulo">Sobre mim</h2>
+      <div class="sobre">
+        <p>
+          Sou estudante e desenvolvedor em formação, atualmente cursando
+          <strong>Análise e desenvolvimento de sistemas</strong> na <strong>Centro Universitário UDF</strong>.
+          Gosto de transformar ideias em interfaces interativas, sempre buscando
+          código limpo e boas práticas.
+        </p>
+        <p>
+          Durante a faculdade venho desenvolvendo projetos que unem design e
+          programação, focando em <strong>desenvolvimento web</strong>. Meu objetivo é
+          crescer como profissional e contribuir com soluções que façam a diferença.
+        </p>
+        <div class="sobre__info">
+          <div class="sobre__card">
+            <span class="sobre__icone">🎓</span>
+            <h3>Formação</h3>
+            <p>Análise e desenvolvimento de sistemas — Centro Universitário UDF<br />2026 — 2028</p>
+          </div>
+          <div class="sobre__card">
+            <span class="sobre__icone">💼</span>
+            <h3>Experiência</h3>
+            <p>[Cargo/Função]<br />[Empresa ou projeto]</p>
+          </div>
+          <div class="sobre__card">
+            <span class="sobre__icone">🎯</span>
+            <h3>Objetivo</h3>
+            <p>Atuar como desenvolvedor<br />front-end júnior | Estagiário</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stacks -->
+  <section class="secao secao--alternada" id="habilidades">
+    <div class="container">
+      <h2 class="secao__titulo">Tech Stacks</h2>
+      <div class="habilidades">
+        <div class="habilidade">
+          <div class="habilidade__topo">
+            <span>HTML</span><span>90%</span>
+          </div>
+          <div class="habilidade__barra"><div class="habilidade__preenchimento" data-nivel="90"></div></div>
+        </div>
+        <div class="habilidade">
+          <div class="habilidade__topo">
+            <span>CSS</span><span>85%</span>
+          </div>
+          <div class="habilidade__barra"><div class="habilidade__preenchimento" data-nivel="85"></div></div>
+        </div>
+        <div class="habilidade">
+          <div class="habilidade__topo">
+            <span>JavaScript</span><span>50%</span>
+          </div>
+          <div class="habilidade__barra"><div class="habilidade__preenchimento" data-nivel="50"></div></div>
+        </div>
+        <div class="habilidade">
+          <div class="habilidade__topo">
+            <span>Git & GitHub</span><span>30%</span>
+          </div>
+          <div class="habilidade__barra"><div class="habilidade__preenchimento" data-nivel="30"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+
+  <section class="secao" id="projetos">
+    <div class="container">
+      <h2 class="secao__titulo">Projetos</h2>
+      <div class="projetos">
+        <article class="projeto">
+          <div class="projeto__imagem">🖥️</div>
+          <div class="projeto__corpo">
+            <h3 class="projeto__titulo">Projeto 1</h3>
+            <p class="projeto__descricao">
+              Descrição curta do projeto, o que ele faz e quais tecnologias foram usadas.
+            </p>
+            <div class="projeto__tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+            <div class="projeto__links">
+              <a href="#" target="_blank" rel="noopener">Ver projeto</a>
+              <a href="#" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="projeto">
+          <div class="projeto__imagem">📱</div>
+          <div class="projeto__corpo">
+            <h3 class="projeto__titulo">Projeto 2</h3>
+            <p class="projeto__descricao">
+              Descrição curta do projeto, o que ele faz e quais tecnologias foram usadas.
+            </p>
+            <div class="projeto__tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+            <div class="projeto__links">
+              <a href="#" target="_blank" rel="noopener">Ver projeto</a>
+              <a href="#" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="projeto">
+          <div class="projeto__imagem">🎮</div>
+          <div class="projeto__corpo">
+            <h3 class="projeto__titulo">Projeto 3</h3>
+            <p class="projeto__descricao">
+              Descrição curta do projeto, o que ele faz e quais tecnologias foram usadas.
+            </p>
+            <div class="projeto__tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+            <div class="projeto__links">
+              <a href="#" target="_blank" rel="noopener">Ver projeto</a>
+              <a href="#" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies -->
+
+  <section class="secao secao--alternada" id="hobbies">
+    <div class="container">
+      <h2 class="secao__titulo">Hobbies</h2>
+      <div class="hobbies">
+        <article class="hobby">
+          <span class="hobby__icone">🏐</span>
+          <h3 class="hobby__titulo">Vôlei</h3>
+          <p class="hobby__texto">
+            Meu esporte favorito! Jogo sempre que posso e acompanho os jogos.
+            Meu jogador preferido é o levantador <strong>Simeon Nikolov</strong>.
+          </p>
+        </article>
+
+        <article class="hobby">
+          <span class="hobby__icone">📺</span>
+          <h3 class="hobby__titulo">Anime</h3>
+          <p class="hobby__texto">
+            Sou apaixonado por anime. Meu favorito é <strong>Haikyuu!!</strong>,
+            que junta minhas duas paixões: vôlei e anime!
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+
+  <section class="secao" id="contato">
+    <div class="container">
+      <h2 class="secao__titulo">Contato</h2>
+      <div class="contato">
+        <div class="contato__info">
+          <p>Ficou interessado? Vamos conversar! 👇</p>
+          <p>📧 <a href="mailto:lucassilvaloiola@gmail.com">Lucas Silva Loiola</a></p>
+          <p>📍 Brasília, Brasil</p>
+        </div>
+        <form class="contato__form" id="form-contato" novalidate>
+          <input type="text" id="nome" placeholder="Seu nome" required />
+          <input type="email" id="email" placeholder="Seu e-mail" required />
+          <textarea id="mensagem" rows="4" placeholder="Sua mensagem" required></textarea>
+          <button type="submit" class="btn btn--primario">Enviar</button>
+          <p class="contato__status" id="status" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+
+  <footer class="rodape">
+    <div class="container">
+      <p>&copy; <span id="ano"></span> Lucas Silva Loiola. Feito com HTML, CSS e JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
